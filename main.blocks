@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="W]/[x3IDv6MbsMs}Eu;B">Pop</variable></variables><block type="pxt-on-start" id=")6r,6u0|LR_|$jtRD)bS" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="{y+gdNdNk7NRS[5pR9h!"><field name="VAR" id="W]/[x3IDv6MbsMs}Eu;B">Pop</field><value name="VALUE"><shadow type="math_number" id="u^0T]c0+amSt{]xA.3Q`"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_gesture_event" id="TK8!-0b~:]3ZLX2AU.?d" x="-10" y="207"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="*-RUB-cr;LC+Zy,aP^WJ"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="xuY5TW9!P!e~RxTT3df1"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="2V=(dbRg-YN1EU}+=K;j"><field name="VAR" id="W]/[x3IDv6MbsMs}Eu;B">Pop</field></block></value><value name="B"><shadow type="math_number" id="kIb`+EIE?(atvi^E^*a8"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=pM|2:CF^N[/o7!Rk_;w"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="variables_change" id="o$|gd[CE=j=fcMjMAjT0"><field name="VAR" id="W]/[x3IDv6MbsMs}Eu;B">Pop</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="device_random" id="E2?me06zLddMq-`=_HVm"><value name="min"><shadow type="math_number" id="+gt(:r;g$)4j7nA%P]18"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="95hRb%$SI+z(Va!qS5`Q"><field name="NUM">4</field></shadow></value></block></value><next><block type="device_show_leds" id=".QoRAS+hU-VK-ycLlWEq"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . #
+        `</field><next><block type="device_show_leds" id="cMT}HG!{eefdnp}$H*S."><field name="LEDS">`
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
